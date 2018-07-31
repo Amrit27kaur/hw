@@ -1,0 +1,31 @@
+<!DOCTYPE.html>
+<html>
+<head>
+	 <title>if condition</title>
+<script>
+
+	 function check(){
+	 
+	 console.log("condition");
+		 var length = document.getElementById("textbox1").value;
+		 var width = document.getElementById("textbox2").value;
+		  var length = parseInt(length);
+		    var width = parseInt(width);
+			
+		 if(length == width){
+		     alert("it is square");
+		 }
+		 else {
+		     alert ("its rectangle");
+		 }
+	 }
+</script>
+</head>
+<body>
+	 <input type="text" id="textbox1" placeholder="enter the length"><br><br>
+	  <input type="text1" id="textbox2" placeholder="enter the width"><br><br>
+	 <button onclick="check()">check</button>
+
+
+</body>
+</html>

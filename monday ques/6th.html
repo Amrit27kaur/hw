@@ -1,0 +1,63 @@
+<!DOCTYPE.html>
+<html>
+<head>
+	 <title>if condition</title>
+<script>
+	 function check(){
+		 var age1 = documnent.getElementById("textbox1").value;
+		  var age2 = documnent.getElementById("textbox2").value;
+		   var age3 = documnent.getElementById("textbox3").value;
+		   
+		   var age1 = parseInt(age1);
+		   var age2 = parseInt(age2);
+		   var age3 = parseInt(age3); 
+		   
+				 if(age1>age2){
+					 if(age1>age3){
+					 alert("age1 is older");
+					 }
+					 else{
+						alert("age3 is older");
+					 }
+					 
+				 }
+				 else{
+					 if(age2>age3){
+						alert("age2 is older");
+					 }
+					 else{
+					    alert("age3 is older");
+					 }
+		   
+				  }
+				 if(age1<age2){
+					 if(age1<age3){
+					 alert("age1 is younger");
+					 }
+					 else{
+						alert("age3 is younger");
+					 }
+					 
+				 }
+				 else{
+					 if(age2<age3){
+						alert("age2 is younger");
+					 }
+					 else{
+					    alert("age3 is younger");
+					 }
+		   
+				  }
+					
+					
+					}
+				
+</script>
+</head>
+<body>
+	 <input type="text" id="textbox1" placeholder="enter the age"><br><br>
+	 <input type="text" id="textbox2" placeholder="enter the age"><br><br>
+	 <input type="text" id="textbox3" placeholder="enter the age"><br><br>
+	 <button onclick="check()">check</button>
+</body>
+</html>

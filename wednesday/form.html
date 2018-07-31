@@ -1,0 +1,46 @@
+<!DOCTYPE.html>
+<head>
+	 <title>task</title>
+	 <script>
+		
+		
+	     function add() {
+		 
+		 console.log("inside add function");                                                                //console.log is used for debugging error.
+		 var FirstNumber = document.getElementById("textbox1").value;  
+		 var SecondNumber = document.getElementById("textbox2").value;
+
+		 //document.getElementById("result").innerHTML=parseInt(FirstNumber)+parseInt(SecondNumber);
+		 //alert(parseInt(FirstNumber)+ parseInt(SecondNumber));
+		 document.getElementById("result").value= parseInt(FirstNumber)+parseInt(SecondNumber);                 //.value is used for put a result in textbox
+		 }
+		 
+		 function multiply() {
+		 
+		 var FirstNumber = document.getElementById("textbox1").value;  
+		 var SecondNumber = document.getElementById("textbox2").value;
+
+		 //document.getElementById("result").innerHTML=parseInt(textbox1)*parseInt(SecondNumber);
+		 //alert(parseInt(FirstNumber)* parseInt(SecondNumber));
+		 document.getElementById("result").value = parseInt(FirstNumber) * parseInt(SecondNumber);
+		 
+		 }
+		 
+		 
+		 
+		 
+	 </script>
+</head>
+<body>
+		
+		  <input type="text" id="textbox1" placeholder="first number"><br><br>
+		 <input type="text" id="textbox2" placeholder="second number"><br><br>
+		 <input type="text" id="result" placeholder="result"><br><br>
+		 <button onclick="add()">add</button><br><br> 
+		  <button onclick="multiply()">multiply</button>
+		  
+		  <h1 id=""result"></h1>	
+
+		 
+</body> 
+</html>

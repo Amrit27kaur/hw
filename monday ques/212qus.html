@@ -1,0 +1,40 @@
+<!Doctype html>
+<html lang="en">
+	<head>
+		<title>Student Course Grade</title>
+		<script>
+			
+				var hourlyPayRate=prompt("enter hourly pay rete");
+				var numOfHour=prompt("enter no of hour");
+				var DepClaim=prompt("enter dep claim");
+				
+				if(numOfHour>40){
+				 var overtime=numOfHours-40;
+				 var pay= (hourlyPayRate*40)+(1.5*hourlyPayRate*overtime);
+				}
+				
+				else{
+				pay=(hourlyPayRate*numOfHour);
+				
+				}
+				var tax 
+				if(DepClaim==0){
+				tax = (pay*28)/100;
+				}
+				else if(DepClaim >= 1 && DepClaim <= 3){
+				tax = (pay*25)/100;}
+				
+				else if(DepClaim >= 4 && DepClaim <= 6){
+				tax = (pay*1.5)/100;}
+				
+				else {
+				tax = (pay*10)/100;}
+				
+				var NetIncome= pay-tax;
+			alert("Net Weekly Income "+NetIncome);
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE.html>
+<html>
+<head>
+	 <title>if condition</title>
+<script>
+
+	 function check(){
+	 
+	 console.log("condition");
+		 var a = document.getElementById("textbox1").value;
+		 var b = document.getElementById("textbox2").value;
+		 
+		 //(a>b)? alert(a +" is greater" + b): alert (b +" is greater" +a);      terinary operators
+		 
+		  var a = parseInt(a);
+		    var b = parseInt(b);
+			
+		 if(a > b){
+		     alert(a +" is greater" + b);
+		 }
+		 else {
+		     alert (b +" is greater" +a);
+		 }
+	 }
+</script>
+</head>
+<body>
+	 <input type="text" id="textbox1" placeholder="enter the value"><br><br>
+	  <input type="text1" id="textbox2" placeholder="enter the value"><br><br>
+	 <button onclick="check()">check</button>
+
+
+</body>
+</html>

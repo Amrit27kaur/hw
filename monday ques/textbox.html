@@ -1,0 +1,30 @@
+<!Doctype html>
+<html lang="en">
+	<head>
+		<title>form</title>
+		<script>
+		function submit(){
+			 var name=document.getElementbyId("name").value;
+			 var email=document.getElementbyId("email").value;
+		     var phone=document.getElementbyId("phone").value; 
+		     var message=document.getElementbyId("message").value;
+			 
+				if(name==""){
+					 document.getElementbyId('name').innerHTML = "fill the name";
+				
+				}
+				
+			}	
+			
+		</script>
+	</head>  
+	<body>
+	  <form onsubmit="submit()">
+		<h3>name:<input type="text" name= "Name" id="name" placeholder="enter name"></h3>
+		<h3>email:<input type="text" name = "Email" id="email" placeholder="enter email"></h3>
+		<h3>phone:<input type="text" name = "phone" id="phone" placeholder="enter phone"></h3>
+		<h3>message: <input type="text" name = "message" id="message" placeholder="enter message"></h3>
+		<input type="submit" name = "submit" value="submit">
+		</form>
+	</body>
+</html>
