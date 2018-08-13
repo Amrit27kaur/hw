@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <title>Carla's Project</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	 <style>
+	 
+		 body{ 
+		     
+			 background-image:url("images/cloud1.jpg");
+			 
+			 background-size: cover; 
+			 height: 1300px;
+			 width: 100%;
+			
+		 }
+		 
+		 #wrapper{
+			 margin:0 auto;
+			 width: 1100px;
+			 height: 900px;
+			 background-color: white;
+			 border: 2px solid black;
+		 }
+		 
+	     #logo{
+			 padding-top: 30px;
+			 padding-left: 80px;
+		 }
+		 
+		 #maintext{
+			 padding-left: 180px;
+			 padding-top: 30px;
+			 font-style: italic;
+			 font-size: 32px;
+		 }
+		 
+		 #nav ul li{
+			 display: inline;
+			 padding:40px;
+			 margin-left:20px;
+	    
+		 }
+		 #nav{
+			 padding-top: 20px;
+		 }
+		 
+		 #image{
+			 padding-left: 50px;
+			 padding-top: 20px;
+			
+		 }
+		 
+		 #text{
+			 padding-top: 30px;
+			 margin-left: 10px;
+		 
+		 
+		 }
+		 
+		 
+		 
+		 .paragraph{
+			 padding-top: 40px;
+			 font-size: 20px;
+			 font-weight: bold;
+			
+		 }
+		 
+		 
+		 
+		 #imagepar{
+			 border: 2px solid black;
+			 border-radius: 10px;
+			 height: 350px;
+			 margin-top: 20px;
+		 }
+		 
+		#teacher{
+			 padding-top: 200px;
+			 padding-left: 100px;
+		}
+		
+		#cycle{
+			 padding-top: 30px;
+		}
+
+	 </style>
+	 <script>
+     function Name(){
+      var name = prompt("Enter your name");
+	  document.getElementById('Ename').innerHTML = " Hi there, " +name;
+      }
+	  
+	   function Age(){
+      var age = parseInt(prompt("Enter your age"));
+	  document.getElementById('Eage').innerHTML = " You're " +age+ " years old? Wow!";
+      }
+	  
+	   function Subject(){
+      var subject = prompt("Enter your fav subject name");
+	  document.getElementById('Esub').innerHTML = " fav subject is " +subject;
+      }
+	  
+	  function Teacher(){
+		 var teacher = prompt("enter your teacher");
+		 document.getElementById('Eteach').innerHTML = " fav teacher is " +teacher;
+	  
+	  }
+	  
+	 
+
+</script>
+</head>
+<body>
+	 <div id="wrapper">
+		 <div class="row" id="header">
+		 
+			 <div class="col-md-3 col-lg-3 col-sm-3" id="logo">
+				 <img src="images/owl_button.jpg" alt="owl_button" height="100" width="100">
+			 </div>
+			 
+			  <div class="col-md-9 col-lg-9 col-sm-9">
+			  
+				 <h1 id="maintext"><b>Carla's Classroom</b></h1>
+			  
+			  </div>
+			  </div>
+			  <div class="row" id="nav">
+			  <div class="col-md-12 col-lg-12 col-sm-12">
+			  <ul>
+				<li> <a href="index.html"><img src="images/owl_button.jpg" alt="owl_button" height="50" width="50">Home</a></li>
+				<li> <a href="#"><img src="images/carla_button.jpg" alt="owl_button" height="50" width="50">Meet Carla</a></li>
+				<li> <a href="#"><img src="images/read_button.jpg" alt="read_button" height="50" width="50">Reading</a></li>
+				<li> <a href="writing.html"><img src="images/write_button.jpg" alt="write_button" height="50" width="50">Writing</a></li>
+				<li> <a href="#"><img src="images/arith_button.jpg" alt="arith_button" height="50" width="50">Arithmetic</a></li>
+				<li> <a href="aboutus.html"><img src="images/carla_kids.jpg" alt="carla_kids" height="50" width="50">About Me!</a></li>
+			  </ul> 
+			  </div>
+		 
+		 </div>
+	 
+	     <div class="row" id="partext">
+		 
+			 <div class="col-md-2 col-lg-2 col-sm-2">
+				 
+			 </div>
+		     <div class="col-md-9 col-lg-9 col-sm-9">
+				 <div class="row" id="imagepar">
+					 <div class="col-md-2" id="image">
+					      <img src="images/girl.jpg" alt="owl_button" height="150" width="100">
+					 </div>
+					 <div class="col-md-9" id="text">
+			             
+						  <form action="#">
+								<button type="button" onclick="Name()">Enter your name</button> <span id="Ename"></span><br><br>
+                                 <button type="button" onclick="Age()">Enter your age</button> <span id="Eage"></span> <br><br>
+								 <button type="button" onclick="Subject()">Enter your fav subject</button> <span id="Esub"></span>								
+		</form>
+				
+			      </div>
+				   <div class="col-md-1">  </div>
+				   <div class="row" id="teacher">
+			    <div class="col-md-12">
+					 <button type="button" onclick="Teacher()">Who's your fav teacher</button><span id="Eteach"></span>
+				</div></div>
+			    <div class="col-md-10"></div>
+				<div class="col-md-2" id="cycle"> <img src="images/cycle.jpg" alt="cycle" height="50" width="30"></div>
+			 </div>
+		 </div>
+		     
+		 </div>
+		 <div class="row">
+		     <div class="col-md-2 col-lg-2 col-sm-2">
+				 
+			 </div>
+		     <div class="col-md-1o col-lg-10 col-sm-10">
+			     <p class="paragraph"><b>*Carla's Motto:Never miss a chance to teach and to learn!</b></p>
+		     </div>
+		 </div>
+		 
+
+		 </div>
+	 
+</body>
+
+</html>
