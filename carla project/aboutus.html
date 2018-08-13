@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	 <title>Carla's Project</title>
 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -91,7 +91,7 @@
 	 <script>
      function Name(){
       var name = prompt("Enter your name");
-	  document.getElementById('Ename').innerHTML = " Hi there, " +name;
+	  document.getElementById('Ename').innerHTML =name;
       }
 	  
 	   function Age(){
@@ -155,16 +155,16 @@
 					 <div class="col-md-9" id="text">
 			             
 						  <form action="#">
-								<button type="button" onclick="Name()">Enter your name</button> <span id="Ename"></span><br><br>
-                                 <button type="button" onclick="Age()">Enter your age</button> <span id="Eage"></span> <br><br>
-								 <button type="button" onclick="Subject()">Enter your fav subject</button> <span id="Esub"></span>								
+								<button type="button" onclick="Name()">Enter your name</button> <span id="Ename">Hi there , Little Fella</span><br><br>
+                                 <button type="button" onclick="Age()">Enter your age</button> <span id="Eage">you 're ?? old</span> <br><br>
+								 <button type="button" onclick="Subject()">Enter your fav subject</button> <span id="Esub">fav subject</span>								
 		</form>
 				
 			      </div>
 				   <div class="col-md-1">  </div>
 				   <div class="row" id="teacher">
 			    <div class="col-md-12">
-					 <button type="button" onclick="Teacher()">Who's your fav teacher</button><span id="Eteach"></span>
+					 <button type="button" onclick="Teacher()">Who's your fav teacher</button><span id="Eteach">fav teacher</span>
 				</div></div>
 			    <div class="col-md-10"></div>
 				<div class="col-md-2" id="cycle"> <img src="images/cycle.jpg" alt="cycle" height="50" width="30"></div>
