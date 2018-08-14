@@ -39,10 +39,18 @@
 		 
 		 #nav ul li{
 			 display: inline;
-			 padding:40px;
-			 margin-left:20px;
+			 padding:20px;
+			 margin-left:30px;
 	    
 		 }
+		 
+		 #nav1 ul li{
+			 display: inline;
+			 padding:20px;
+			 margin-left:30px;
+	    
+		 }
+		 
 		 #nav{
 			 padding-top: 20px;
 		 }
@@ -83,30 +91,28 @@
 			 padding-left: 100px;
 		}
 		
-		#cycle{
-			 padding-top: 30px;
-		}
 
 	 </style>
 	 <script>
      function Name(){
-      var name = prompt("Enter your name");
+      var name = prompt("Enter your name?" ," ");
 	  document.getElementById('Ename').innerHTML =name;
       }
 	  
 	   function Age(){
-      var age = parseInt(prompt("Enter your age"));
-	  document.getElementById('Eage').innerHTML = " You're " +age+ " years old? Wow!";
+      var age = parseInt(prompt("Enter your age" ," "));
+	  document.getElementById('Eage').innerHTML = age;
       }
 	  
 	   function Subject(){
-      var subject = prompt("Enter your fav subject name");
-	  document.getElementById('Esub').innerHTML = " fav subject is " +subject;
+      var subject = prompt("Enter your fav subject name" ," ");
+	  document.getElementById('Esub').innerHTML = subject;
       }
 	  
 	  function Teacher(){
-		 var teacher = prompt("enter your teacher");
-		 document.getElementById('Eteach').innerHTML = " fav teacher is " +teacher;
+		 var teacher = prompt("enter your teacher" ," ");
+		 var favorite = "Carla";
+		 document.getElementById('Eteach').innerHTML = favorite;
 	  
 	  }
 	  
@@ -119,7 +125,7 @@
 		 <div class="row" id="header">
 		 
 			 <div class="col-md-3 col-lg-3 col-sm-3" id="logo">
-				 <img src="images/owl_button.jpg" alt="owl_button" height="100" width="100">
+				 <img src="images/owl_logo.jpg" alt="owl_button" height="100" width="100">
 			 </div>
 			 
 			  <div class="col-md-9 col-lg-9 col-sm-9">
@@ -135,7 +141,16 @@
 				<li> <a href="#"><img src="images/carla_button.jpg" alt="owl_button" height="50" width="50">Meet Carla</a></li>
 				<li> <a href="#"><img src="images/read_button.jpg" alt="read_button" height="50" width="50">Reading</a></li>
 				<li> <a href="writing.html"><img src="images/write_button.jpg" alt="write_button" height="50" width="50">Writing</a></li>
-				<li> <a href="#"><img src="images/arith_button.jpg" alt="arith_button" height="50" width="50">Arithmetic</a></li>
+				<li> <a href="arithmetic.html"><img src="images/arith_button.jpg" alt="arith_button" height="50" width="50">Arithmetic</a></li>
+		
+			  </ul> 
+			  </div>
+		 
+		 </div>
+			  <div class="row" id="nav1">
+			  <div class="col-md-12 col-lg-12 col-sm-12">
+			  <ul>
+				
 				<li> <a href="aboutus.html"><img src="images/carla_kids.jpg" alt="carla_kids" height="50" width="50">About Me!</a></li>
 			  </ul> 
 			  </div>
@@ -155,19 +170,21 @@
 					 <div class="col-md-9" id="text">
 			             
 						  <form action="#">
-								<button type="button" onclick="Name()">Enter your name</button> <span id="Ename">Hi there , Little Fella</span><br><br>
-                                 <button type="button" onclick="Age()">Enter your age</button> <span id="Eage">you 're ?? old</span> <br><br>
-								 <button type="button" onclick="Subject()">Enter your fav subject</button> <span id="Esub">fav subject</span>								
+								<button type="button" onclick="Name()">Enter your name</button> Hi there ,<span id="Ename">Little Fella</span><br><br>
+                                 <button type="button" onclick="Age()">Enter your age</button> you 're <span id="Eage"> ??? </span> &nbsp;years old?<br><br>
+								 <button type="button" onclick="Subject()">Enter your fav subject</button> you like <span id="Esub"> ??? </span> &nbsp;best.We'll do a lot of that here.								
 		</form>
 				
 			      </div>
 				   <div class="col-md-1">  </div>
 				   <div class="row" id="teacher">
-			    <div class="col-md-12">
-					 <button type="button" onclick="Teacher()">Who's your fav teacher</button><span id="Eteach">fav teacher</span>
-				</div></div>
-			    <div class="col-md-10"></div>
-				<div class="col-md-2" id="cycle"> <img src="images/cycle.jpg" alt="cycle" height="50" width="30"></div>
+			    <div class="col-md-9">
+					 <button type="button" onclick="Teacher()">Who's your fav teacher</button><span id="Eteach"> ??? </span>&nbsp;is the best!
+				</div>
+					  <div class="col-md-3"><img src="images/cycle.jpg" alt="cycle" height="50" width="30"></div>
+				</div>
+				
+			 
 			 </div>
 		 </div>
 		     

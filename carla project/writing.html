@@ -20,7 +20,7 @@
 		 #wrapper{
 			 margin:0 auto;
 			 width: 1100px;
-			 height: 900px;
+		
 			 background-color: white;
 			 border: 2px solid black;
 		 }
@@ -46,8 +46,8 @@
 		 
 		 #nav ul li{
 			 display: inline;
-			 padding:40px;
-			 margin-left:20px;
+			 padding:20px;
+			 margin-left:30px;
 	    
 		 }
 		 #nav{
@@ -56,7 +56,7 @@
 	     
 		 #border{
 			 border:2px solid black;
-			 height:500px;
+			
 			 margin-top: 20px;
 		 }
 		 
@@ -70,54 +70,35 @@
 		 
 		 #border1{
 			 border: 2px solid black;
-			 height : 130px;
+			
 		 }
 		 
 		  #border2{
 			 border: 2px solid black;
 			 margin-left:5px;
-			 height : 130px;
+			
 		 }
 		 
 		  #border3{
 			 border: 2px solid black;
-			 height : 130px;
+			
 			
 		 }
 		 
 		  #border4{
 			 border: 2px solid black;
 			  margin-left:5px;
-			  height : 130px;
+			
 		 }
 	     
 		  #border5{
 			 border: 2px solid black;
-		     height : 130px;
+		    
 			 
 		 }
 		 
-		 #bananas1{
-			 margin-left:210px;
-		 }
-		 
-		  #lemonade1{
-			 margin-left:210px;
-		 }
-
-		  #celery1{
-			 margin-left:210px;
-		 }
-
-		  #onions1{
-			 margin-left:210px;
-		 }
-
-		  #avocado1{
-			 margin-left:210px;
-		 }
-         
-		 		 #footer{
+		
+		 #footer{
 			 margin-top: 20px;
 			 font-size: 14px;
 			 font-weight: bold;
@@ -131,81 +112,85 @@
 			var fruit2 = "";
 			var fruit3 = "";
 			var fruit4 = "";
-			var result="";
+			var result1="";
+			var result2="";
+			var result3="";
+			var result4="";
+			var result5="";
 	 console.log("condition");
 		 function Avo(){
 		     
 			 var fruit = prompt("enter your ans");
 			    if(fruit == "avocado"){
-			     result="you are right";
+			     result1="you are right";
 			 }
 			 else{
-				 result="sorry, that's incorrect";
+				 result1="sorry, that's incorrect";
 			 }
 			
 		 }
 		 function Avo1(){
-			 alert(result);
+			 alert(result1);
 		 }
 		
 		  function Bana(){
 		     
 			 var fruit1 = prompt("enter your ans");
 			    if(fruit1 == "bananas"){
-			     result="you are right";
+			     result2="you are right";
 			 }
 			 else{
-				 result="sorry, that's incorrect";
+				 result2="sorry, that's incorrect";
 			 }
 			
 		 }
 		 function Bana1(){
-			 alert(result);
+			 alert(result2);
 		 }
 		 
 		  function cel(){
 		     
 			 var fruit2 = prompt("enter your ans");
 			    if(fruit2 == "celery"){
-			     result="you are right";
+			     result3="you are right";
 			 }
 			 else{
-				 result="sorry, that's incorrect";
+				 result3="sorry, that's incorrect";
 			 }
 			
 		 }
 		 function cel1(){
-			 alert(result);
+			 alert(result3);
 		 }
 		 
 		   function lemon(){
 		     
 			 var fruit3 = prompt("enter your ans");
 			    if(fruit3 == "lemonade"){
-			     result="you are right";
+			     result4="you are right";
 			 }
 			 else{
-				 result="sorry, that's incorrect";
+				 result4="sorry, that's incorrect";
 			 }
 			
 		 }
 		 function lemon1(){
-			 alert(result);
+			 alert(result4);
 		 }
 		 
 		  function onio(){
 		     
 			 var fruit4 = prompt("enter your ans");
 			    if(fruit4 == "onions"){
-			     result="you are right";
+			     result5="you are right";
 			 }
 			 else{
-				 result="sorry, that's incorrect";
+				 result5="sorry, that's incorrect";
 			 }
 			
 		 }
 		 function onio1(){
-			 alert(result);
+			 alert(result5);
 		 }
 	 </script>
 </head>
@@ -214,7 +199,7 @@
 		 <div class="row" id="header">
 		 
 			 <div class="col-md-3 col-lg-3 col-sm-3" id="logo">
-				 <img src="images/write_button.jpg" alt="owl_button" height="100" width="100">
+				 <img src="images/writing_big.jpg" alt="owl_button" height="100" width="100">
 			 </div>
 			 
 			  <div class="col-md-9 col-lg-9 col-sm-9">
@@ -230,7 +215,7 @@
 				<li> <a href="#"><img src="images/carla_button.jpg" alt="owl_button" height="50" width="50">Meet Carla</a></li>
 				<li> <a href="#"><img src="images/read_button.jpg" alt="read_button" height="50" width="50">Reading</a></li>
 				<li> <a href="writing.html"><img src="images/write_button.jpg" alt="write_button" height="50" width="50">Writing</a></li>
-				<li> <a href="#"><img src="images/arith_button.jpg" alt="arith_button" height="50" width="50">Arithmetic</a></li>
+				<li> <a href="arithmetic.html"><img src="images/arith_button.jpg" alt="arith_button" height="50" width="50">Arithmetic</a></li>
 				
 			  </ul> 
 			  </div>
@@ -248,17 +233,17 @@
 					 </div>
 					 
 				     <div class="col-md-5" id="border1">
-						 <img src="images/avocado.jpg" alt="avocado" height="80" width="80">
+						 <img src="images/avocado.jpg" alt="avocado" height="50" width="50">
 						 <span class="ques">Ques1:What is this?</span>
-						 <button type="button" id="avocado" onclick="Avo()">ans Q1</button>
-						  <button type="button" id="avocado1" onclick="Avo1()">check ans</button>
+						 <p><button type="button" id="avocado" onclick="Avo()">ans Q1</button></p>
+						  <p><button type="button" id="avocado1" onclick="Avo1()">check ans</button></p>
 					 </div>
 					 
 					 <div class="col-md-5" id="border2">
-					     <img src="images/bananas.jpg" alt="bananas" height="80" width="80">
-						 <span class="ques">Ques1:What is this?</span>
-						 <button type="button" id="bananas" onclick="Bana()">ans Q1</button>
-						  <button type="button" id="bananas1" onclick="Bana1()">check ans</button>
+					     <img src="images/bananas.jpg" alt="bananas" height="50" width="50">
+						 <span class="ques">Ques2:What is this?</span>
+						 <p><button type="button" id="bananas" onclick="Bana()">ans Q1</button></p>
+						  <p><button type="button" id="bananas1" onclick="Bana1()">check ans</button></p>
 					 </div>
 					  <div class="col-md-1">
 					 
@@ -268,17 +253,17 @@
 					 
 					 </div>
 					 <div class="col-md-5" id="border3">
-					     <img src="images/celery.jpg" alt="celery" height="80" width="80">
-						 <span class="ques">Ques1:What is this?</span>
-						 <button type="button" id="celery" onclick="cel()">ans Q1</button>
-						  <button type="button" id="celery1" onclick="cel1()">check ans</button>
+					     <img src="images/celery.jpg" alt="celery" height="50" width="50">
+						 <span class="ques">Ques3:What is this?</span>
+						<p> <button type="button" id="celery" onclick="cel()">ans Q1</button></p>
+						 <p> <button type="button" id="celery1" onclick="cel1()">check ans</button></p>
 					 </div>
 					 
 					 <div class="col-md-5" id="border4">
-					     <img src="images/lemonade.jpg" alt="lemonade" height="80" width="80">
-						 <span class="ques">Ques1:What is this?</span>
-						 <button type="button" id="lemonade" onclick="lemon()">ans Q1</button>
-						  <button type="button" id="lemonade1" onclick="lemon1()">check ans</button>
+					     <img src="images/lemonade.jpg" alt="lemonade" height="50" width="50">
+						 <span class="ques">Ques4:What is this?</span>
+						 <p><button type="button" id="lemonade" onclick="lemon()">ans Q1</button></p>
+						 <p> <button type="button" id="lemonade1" onclick="lemon1()">check ans</button></p>
 					 </div>
 					  <div class="col-md-1">
 					 
@@ -288,10 +273,10 @@
 					 
 					 </div>
 					 <div class="col-md-6" id="border5">
-					     <img src="images/onions.jpg" alt="onions" height="80" width="80">
-						 <span class="ques">Ques1:What is this?</span>
-						 <button type="button" id="onions" onclick="onio()">ans Q1</button>
-						  <button type="button" id="onions1" onclick="onio1()">check ans</button>
+					     <img src="images/onions.jpg" alt="onions" height="50" width="50">
+						 <span class="ques">Ques5:What is this?</span>
+						 <p><button type="button" id="onions" onclick="onio()">ans Q1</button></p>
+						  <p><button type="button" id="onions1" onclick="onio1()">check ans</button></p>
 					 </div>
 				     <div class="col-md-3">
 					 
