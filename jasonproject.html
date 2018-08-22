@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	 <title>Carla's Project</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	       <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		   
+	 <script>
+			var users=[];
+			axios.get("https://jsonplaceholder.typicode.com/users").then(function (response){
+			users=response.data;
+			console.log(users);
+			var ShowData="";
+			for(var i=0;i<users.length ;i++){
+				
+				ShowData= ShowData + "
+			}
+			document.getElementById("data").innerHTML=data;
+		});
+		
+		
+	</script>
+	  <style>
+	  
+	      body{ 
+		     
+			 background-color: yellow;
+			 
+			 background-size: cover; 
+			 height: 1300px;
+			 width: 100%;
+			
+		 }
+	  
+		  #wrapper{
+			 margin:0 auto;
+			 width: 600px;
+			 height: 1200px;
+			 background-color: white;
+			 border: 2px solid black;
+			 overflow:auto;
+		 }
+		 
+		 #header{
+			 background-color: blue;
+		 }
+		 
+		 .card-body{
+		 height: 100px;
+		 border: 2px solid black;
+		 border-radius: 10px;
+		 
+		 }
+		 
+	  </style>
+	 
+	 
+</head>
+<body>
+	 <div id="wrapper">
+		 <div class="row" id="header">
+		 
+			 <div class="col-md-3 col-lg-3 col-sm-3" id="logo">
+				 <img src="images/owl_logo.jpg" alt="owl_button" height="100" width="100">
+			 </div>
+			 
+			  <div class="col-md-9 col-lg-9 col-sm-9">
+			  
+				 <h1 id="maintext"><b><i>User Information</i></b></h1>
+			  
+			  </div>
+			  </div>
+		      <br>
+		   <div class="row">
+		        
+				<div class="col-md-10 card bg-success text-white col-md-offset-1 card-body"></div>
+			  </div>
+  
+		 </div>
+	 
+</body>
+</html>
