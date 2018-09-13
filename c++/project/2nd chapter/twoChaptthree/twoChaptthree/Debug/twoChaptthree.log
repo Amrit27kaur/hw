@@ -1,0 +1,5 @@
+﻿  twoChaptthree.cpp
+c:\users\waheguru ji\source\repos\twochaptthree\twochaptthree\twochaptthree.cpp(19): warning C4101: 'newSalery': unreferenced local variable
+c:\users\waheguru ji\source\repos\twochaptthree\twochaptthree\twochaptthree.cpp(18): warning C4101: 'totalSalery': unreferenced local variable
+c:\users\waheguru ji\source\repos\twochaptthree\twochaptthree\twochaptthree.cpp(12): warning C4101: 'sixMonth': unreferenced local variable
+  twoChaptthree.vcxproj -> C:\Users\Waheguru ji\source\repos\twoChaptthree\Debug\twoChaptthree.exe

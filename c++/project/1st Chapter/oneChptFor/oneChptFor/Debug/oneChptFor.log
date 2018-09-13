@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  oneChptFor.cpp
+c:\users\waheguru ji\source\repos\onechptfor\onechptfor\onechptfor.cpp(14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  oneChptFor.vcxproj -> C:\Users\Waheguru ji\source\repos\oneChptFor\Debug\oneChptFor.exe

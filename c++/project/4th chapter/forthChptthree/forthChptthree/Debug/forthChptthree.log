@@ -1,0 +1,4 @@
+﻿  forthChptthree.cpp
+c:\users\waheguru ji\source\repos\forthchptthree\forthchptthree\forthchptthree.cpp(64): warning C4101: 'count': unreferenced local variable
+c:\users\waheguru ji\source\repos\forthchptthree\forthchptthree\forthchptthree.cpp(63): warning C4101: 'jacket': unreferenced local variable
+  forthChptthree.vcxproj -> C:\Users\Waheguru ji\source\repos\forthChptthree\Debug\forthChptthree.exe
