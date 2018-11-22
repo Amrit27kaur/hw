@@ -1,0 +1,63 @@
+﻿<Window x:Class="DesktopProJect1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DesktopProJect1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="703.5" Width="1200.5">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="116" VerticalAlignment="Top" Width="1192" Background="#FFBD1919">
+            <Label x:Name="MainContent" Content="INADIAN PIZZA" HorizontalAlignment="Left" Margin="458,29,0,0" VerticalAlignment="Top" Height="77" Width="320" FontSize="36" FontFamily="Segoe Print" FontWeight="Bold" Foreground="#FFF9ECEC"/>
+            <Image x:Name="logo" HorizontalAlignment="Left" Height="116" VerticalAlignment="Top" Width="180" Source="https://image.freepik.com/free-vector/slices-of-pizza_23-2147517737.jpg" Stretch="Fill"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="557" Margin="0,116,0,0" VerticalAlignment="Top" Width="1192" Background="#FFF5B426">
+            <Grid HorizontalAlignment="Left" Height="208" Margin="110,74,0,0" VerticalAlignment="Top" Width="448" Background="#FFFDF9F9">
+                <Label x:Name="EnterName" Content="Enter Name :" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top" Height="54" Width="177" FontSize="24" FontFamily="Segoe Print" FontWeight="Bold"/>
+                <TextBox x:Name="nameTXT" HorizontalAlignment="Left" Height="54" Margin="192,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246" FontSize="24" FontFamily="Segoe Print" FontWeight="Bold"/>
+                <Button x:Name="OrderBtn" Content="Order" HorizontalAlignment="Left" Margin="247,128,0,0" VerticalAlignment="Top" Width="167" Height="49" FontFamily="Segoe Print" FontSize="24" FontWeight="Bold" Background="#FFBD1919" Click="OrderBtn_Click"/>
+            </Grid>
+            <Image HorizontalAlignment="Left" Height="201" Margin="944,203,0,0" VerticalAlignment="Top" Width="202" Source="https://www.affairesdegars.com/webroot/usr_img/2016-02/fevrier/semaine2/pizzacoeur.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-17.17"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Height="199" Margin="750,76,0,0" VerticalAlignment="Top" Width="202" Source="http://balistreris.com/wordpress/wp-content/uploads/2012/11/Balistreris-MilwaukeesBestPizza.jpg" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-19.445"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Height="199" Margin="672,289,0,0" VerticalAlignment="Top" Width="198" Source="https://thumbs.dreamstime.com/z/pizza-slice-27151420.jpg" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-15.626"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Height="201" Margin="174,317,0,0" VerticalAlignment="Top" Width="202" Source="https://images5.alphacoders.com/430/430500.jpg" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-13.487"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+
+    </Grid>
+</Window>
